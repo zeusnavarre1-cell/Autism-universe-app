@@ -1,0 +1,78 @@
+name: autism_universe
+description: El Mundo de Juanito - Autism Universe App para Android e iOS
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.14.0
+  firebase_database: ^10.2.0
+  firebase_storage: ^11.5.0
+  provider: ^6.0.0
+  google_sign_in: ^6.1.0
+  shared_preferences: ^2.2.0
+  intl: ^0.19.0
+  lottie: ^2.6.0
+  audioplayers: ^5.2.0
+  vibration: ^1.8.0
+  local_auth: ^2.1.0
+  flutter_local_notifications: ^16.3.0
+  geolocator: ^9.0.0
+  permission_handler: ^11.4.0
+  device_info_plus: ^9.1.0
+  connectivity_plus: ^5.0.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.0
+  google_fonts: ^6.1.0
+  animations: ^2.0.0
+  liquid_swipe: ^3.0.0
+  fl_chart: ^0.63.0
+  table_calendar: ^3.0.0
+  uuid: ^4.0.0
+  equatable: ^2.0.0
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^2.0.0
+  build_runner: ^2.4.0
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/lotties/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
