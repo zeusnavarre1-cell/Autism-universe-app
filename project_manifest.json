@@ -1,0 +1,63 @@
+{
+  "name": "El Mundo de Juanito - Autism Universe",
+  "version": "1.0.0",
+  "description": "Aplicación móvil para ayudar a personas con TEA, autismo y TDAH",
+  "author": "zeusnavarre1-cell",
+  "license": "MIT",
+  "repository": "https://github.com/zeusnavarre1-cell/autism-universe-app",
+  "homepage": "https://www.elmundodejuanito.com",
+  "keywords": [
+    "autism",
+    "TEA",
+    "TDAH",
+    "sensory",
+    "educational",
+    "flutter",
+    "accessibility",
+    "mental-health"
+  ],
+  "platforms": ["android", "ios"],
+  "requirements": {
+    "flutter": ">=3.0.0",
+    "dart": ">=3.0.0"
+  },
+  "firebase": {
+    "projectId": "autism-universe",
+    "databaseURL": "https://autism-universe.firebaseio.com"
+  },
+  "android": {
+    "minSdkVersion": 21,
+    "targetSdkVersion": 34,
+    "compileSdkVersion": 34,
+    "packageName": "com.elmundodejuanito.autismuniverse",
+    "appName": "El Mundo de Juanito"
+  },
+  "ios": {
+    "minOsVersion": "11.0",
+    "bundleId": "com.elmundodejuanito.autismuniverse",
+    "appName": "El Mundo de Juanito"
+  },
+  "features": [
+    "Authentication (Email & Google)",
+    "Visual Communication (AAC)",
+    "Interactive Games",
+    "Visual Routines",
+    "Sensory Relaxation Zone",
+    "Reward System",
+    "Emotion Tracking",
+    "Responsive Design",
+    "Offline Support",
+    "Multi-language Support"
+  ],
+  "colors": {
+    "primary": "#1976D2",
+    "accent": "#FFD700",
+    "background": "#0D1B2A",
+    "white": "#FFFFFF"
+  },
+  "fonts": [
+    "Poppins",
+    "Nunito"
+  ],
+  "slogan": "Un lugar seguro para brillar"
+}
